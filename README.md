@@ -33,6 +33,7 @@ git clone https://github.com/yurigabr25/dslist.git
 docker-compose up -d
 
 # funções pelo Postman
+# requisição GET:
 filtrar jogos pelo id: http://localhost:8080/games/"id-do-jogo"
 
 listar todos os jogos: http://localhost:8080/games
@@ -41,6 +42,7 @@ exibir todas as lias: http://localhost:8080/lists
 
 filtrar listas por id: http://localhost:8080/lists/"id-da-lista"/games
 
+# requisição POST:
 movimentar jogos na lista: http://localhost:8080/lists/2/replacement
 ```
 
