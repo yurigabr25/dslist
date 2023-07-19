@@ -7,7 +7,7 @@ Essa aplicação consiste em uma lista com vários jogos, onde é possível orga
 
 OBS: O projeto não está em produção pela falta de opção gratuidade banco de dados online.
 
-## Modelo conceitual
+# Modelo conceitual
 
 ![Modelo conceitual](https://github.com/yurigabr25/dslist/blob/38f8717fddedefb8e707efdd3347a7a3bd9b1728/img/classDiagram.png)
 
