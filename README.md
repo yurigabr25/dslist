@@ -1,7 +1,7 @@
 # Game List
 
 # Sobre o projeto
-Game List é uma aplicação back-end construída durante a Imerção Java Spring Boot Dev Superior, evendo transmitido pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Game List é uma aplicação back-end construída durante a Imerção Java Spring Boot Dev Superior, evendo transmitido pela [DevSuperior](https://www.youtube.com/@DevSuperior).
 
 Essa aplicação consiste em uma lista com vários jogos, onde é possível organizar cada jogo em várias posições diferentes.
 
