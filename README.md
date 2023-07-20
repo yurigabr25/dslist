@@ -1,9 +1,12 @@
 # Game List
 
 # Sobre o projeto
+
 Game List é uma aplicação back-end construída durante a Imerção Java Spring Boot Dev Superior, evendo transmitido pela [DevSuperior](https://www.youtube.com/@DevSuperior).
 
 Essa aplicação consiste em uma lista com vários jogos, onde é possível organizar cada jogo em várias posições diferentes.
+
+![Postman screenshot](https://github.com/yurigabr25/dslist/blob/62474701a42684af9d9596962c74fbfb0959c80c/img/screenshotPostman.png)
 
 OBS: O projeto não está em produção pela falta de opção gratuidade banco de dados online.
 
@@ -24,27 +27,24 @@ OBS: O projeto não está em produção pela falta de opção gratuidade banco d
 
 Pré-requisitos: Java 17 + Docker e uma IDE de sua preferência + Postman ou outro programa de requisição http
 ```bash
+
 # clonar o repositório
+
 git clone https://github.com/yurigabr25/dslist.git
 
-# executar o projeto java na sua IDE
+# executar o projeto na sua IDE
 
-# entrar na pasta 'database' e rodar o docker
+# entrar na pasta 'database' e subir o docker
+
 docker-compose up -d
 
-# funções pelo Postman
-# requisição GET:
-filtrar jogos pelo id: http://localhost:8080/games/"id-do-jogo"
-
-listar todos os jogos: http://localhost:8080/games
-
-exibir todas as lias: http://localhost:8080/lists
-
-filtrar listas por id: http://localhost:8080/lists/"id-da-lista"/games
-
-# requisição POST:
-movimentar jogos na lista: http://localhost:8080/lists/2/replacement
 ```
+
+## Importar collection para o Postman
+
+A collection pode ser baixada [ clicando aqui](https://github.com/yurigabr25/dslist/blob/4937de8ce72532c2c4c47e62a9506c96cea22eb6/postmanCollection/DsList.postman_collection.json)
+
+<img src="https://github.com/yurigabr25/dslist/blob/4937de8ce72532c2c4c47e62a9506c96cea22eb6/img/importCollection.gif" width="900">
 
 # Autor
 
