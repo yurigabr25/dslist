@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "1d0a8969-ad9e-4bef-a474-b197898b3f26",
+		"name": "DsList",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "28410605"
+	},
+	"item": [
+		{
+			"name": "Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/games"
+			},
+			"response": []
+		},
+		{
+			"name": "Games by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/games/1"
+			},
+			"response": []
+		},
+		{
+			"name": "Game lists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/lists"
+			},
+			"response": []
+		},
+		{
+			"name": "Game by lists",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/lists/2/games"
+			},
+			"response": []
+		},
+		{
+			"name": "List replacement",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"sourceIndex\": 2,\r\n    \"destinationIndex\": 1\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/lists/2/replacement"
+			},
+			"response": []
+		}
+	]
+}
