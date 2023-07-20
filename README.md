@@ -32,11 +32,15 @@ Pré-requisitos: Java 17 + Docker e uma IDE de sua preferência + Postman ou out
 
 git clone https://github.com/yurigabr25/dslist.git
 
-# executar o projeto na sua IDE
+# entrar na pasta 'database'
 
-# entrar na pasta 'database' e subir o docker
+cd database
+
+# subir o docker
 
 docker-compose up -d
+
+# executar o projeto na sua IDE
 
 ```
 
